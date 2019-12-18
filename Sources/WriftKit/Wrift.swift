@@ -56,7 +56,7 @@ public class Wrift {
             "---",
             "date: \"\(date)\"",
             "title: \"\(title)\"",
-            "permalink:\"\(date)-\(filePath)\"",
+            "permalink: \"\(date)-\(filePath)\"",
             "---"]
         
        

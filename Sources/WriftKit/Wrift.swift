@@ -45,9 +45,9 @@ public class Wrift{
         standardError.closeWrite()
     }
     
+    
     public func newFile(){
-        
-        
+        output("test 脚本成功 ！")
         print("hello world")
         
     }

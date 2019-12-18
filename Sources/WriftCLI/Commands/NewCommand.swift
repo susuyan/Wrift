@@ -13,13 +13,13 @@ import SwiftCLI
 class NewCommand: WriftCommand {
 
     init(wrift: Wrift) {
-        super.init(wrift: wrift, name: "new", description: "create new file", longDescription: "")
+        super.init(wrift: wrift, name: "new", description: "create new file")
     }
 
     
     override func execute() throws {
         try super.execute()
-        try wrift.newFile()
+        wrift.newFile()
     }
     
 }

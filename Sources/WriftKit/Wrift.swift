@@ -72,9 +72,5 @@ public class Wrift {
 
         output("🌱 \(file.path)")
         
-      
-        
-        
-
     }
 }

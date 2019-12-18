@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "AEXML",
+        "repositoryURL": "https://github.com/tadija/AEXML",
+        "state": {
+          "branch": null,
+          "revision": "e4d517844dd03dac557e35d77a8e9ab438de91a6",
+          "version": "4.4.0"
+        }
+      },
+      {
         "package": "Files",
         "repositoryURL": "https://github.com/JohnSundell/Files",
         "state": {
@@ -38,6 +47,15 @@
         }
       },
       {
+        "package": "swift-tools-support-core",
+        "repositoryURL": "https://github.com/apple/swift-tools-support-core.git",
+        "state": {
+          "branch": "master",
+          "revision": "edc19d30a674cb9f3311b77ffb406dc7c5d2f540",
+          "version": null
+        }
+      },
+      {
         "package": "SwiftCLI",
         "repositoryURL": "https://github.com/jakeheis/SwiftCLI.git",
         "state": {
@@ -53,6 +71,15 @@
           "branch": null,
           "revision": "200046c93f6d5d78a6d72bfd9c0b27a95e9c0a2b",
           "version": "1.2.0"
+        }
+      },
+      {
+        "package": "XcodeProj",
+        "repositoryURL": "https://github.com/tuist/xcodeproj.git",
+        "state": {
+          "branch": null,
+          "revision": "23f7e12a7e0db29b4f16052692d99f9fbe41fa15",
+          "version": "7.5.0"
         }
       }
     ]

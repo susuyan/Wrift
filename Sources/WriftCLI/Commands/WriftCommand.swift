@@ -1,14 +1,7 @@
-//
-//  File.swift
-//  
-//
-//  Created by sanmy on 2019/12/18.
-//
-
 import Foundation
-import WriftKit
 import PathKit
 import SwiftCLI
+import WriftKit
 
 class WriftCommand: Command {
 

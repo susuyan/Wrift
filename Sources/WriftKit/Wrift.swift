@@ -3,6 +3,7 @@ import PathKit
 import Rainbow
 import SwiftCLI
 import Files
+import AppKit
 
 public class Wrift {
 
@@ -72,5 +73,19 @@ public class Wrift {
 
         output("🌱 \(file.path)")
         
+        shell("open", file.path)
+        
+    }
+}
+
+extension Wrift {
+    @discardableResult
+    func shell(_ args: String...) -> Int32 {
+        let task = Process()
+        task.launchPath = "/usr/bin/env"
+        task.arguments = args
+        task.launch()
+        task.waitUntilExit()
+        return task.terminationStatus
     }
 }

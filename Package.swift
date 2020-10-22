@@ -27,8 +27,12 @@ let package = Package(
         .target(
             name: "Wrift",
             dependencies: ["WriftCLI"]),
-        .target(name: "WriftCLI", dependencies: ["Rainbow", "SwiftCLI", "WriftKit"]),
-        .target(name: "WriftKit", dependencies: ["Rainbow", "PathKit", "Version", "SwiftCLI","Files"]),
+        .target(
+            name: "WriftCLI",
+            dependencies: ["Rainbow", "SwiftCLI", "WriftKit"]),
+        .target(
+            name: "WriftKit",
+            dependencies: ["Rainbow", "PathKit", "Version", "SwiftCLI","Files"]),
         .testTarget(
             name: "WriftTests",
             dependencies: ["Wrift"]),
